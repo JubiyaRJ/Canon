@@ -1,0 +1,93 @@
+{
+	"agents": {
+		"canonAssistant": {
+			"project_id": "canonagent-nvpmlh",
+			"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDmpFkXqgla9Thr\n2hI9+0lzrfLldkqa6BWRGoazXDupGNg7rP+S5P9RrCWSWIg1HxaREXyS+jyFAQlx\nbL/H/qak0W0ayIulBCcjGHZz6gd4+6S8iBFdBonmLub6/LhjD/3p4F1r+Is5yuao\nJSh2+SjPruAdkkOVfYveKW01tHN2NYbSnca+E/ZK7/ND/4v9d2hLwcu78Rj2bDTE\nwZda8cbMbvmPS4dumu5OLdlMDzWpLgOf7AZcuOG7hMLddZwRyTNqVsaDhNaloJ7X\nYZdU/XN4dQLenW5Opa7fcRE856uR1kH1De43IhVvZYJ3htEgRMEZdHhsPaLzMIeA\nWNuND+gdAgMBAAECggEAQ9w2NG68mu0MoTsD5AWz+lvDXD0+PS6s7ckaudoY2ats\nL766YauL7alTUqhGxy5y8tLszsfel5mTADLpiHwF5veRfPBlmfNLWpmffIJumWuc\n8DWuuiqq1zWUk2NZExiI8k+n3RU/TY1D6VQpgDvWBKkk2r6GsQzD4uVYcxU5ZZ1S\nIpDfe9+dipcksikmf3tOnPYehJzGK8mDa+P3IHgFmTU9T+Y3/sqUFsDXZm6Na1aj\nTMisE3vIwhr+30X9L7bFNw8ejq2jHA58hEbj4E99kEVWbhdnLJxx/r1ru61r4y24\nac72nfe/87MEtuYtDLAbIQb6cZ4KuHVUsLDqhAJkpwKBgQD15X9E324+e9P1haup\ngo9Tgyn0PZFlAmcgX0+08B0u8CYUmVUuIxwzhr1c/oNtT86IyiXssv3PK5Kd0DdR\nsj8NcXoiaE4mVM78oCVmq6gs5CWXD9VeQNBN6nPzflsCHUinir7TYB20H4L7Mf1F\n/JAGdzFKzzGMuLsjRXc+0s2pBwKBgQDwHmTdRFy++2xSe2JQXAqypfjdemnjg8J/\nDyntPrfPL7VcgwyKoSOusyrc2C15+wtQHqC5BCaYDNiHR4cvO9jPr2ZVogMG4ZNa\nhuaVIjxCGgzbmFMKv/44yYDdIJlz6SMt40wlLSl9CJrZ0x33aM6WSBakrIcNz6nW\nZ+E+j1MQuwKBgQCwpyEZb5KZ3QfXOSKr8pnZGz/GsXyEnodL4G04xc+RawFQhx+E\nt8CI2+Gqr0XoAA+WgfNg6u4gKWN5cJ5tWKqnk8B0e465RvA02TBFZEi7h2Ph9IQK\n5HFBqI+IfFwRVsxdYPXakRCF2KWWpMEZyGoH2xVUcylbuVLn8f3K6lLJfQKBgQDP\n40CoYRt7LepmrvQ7ZrTMXu3LssQielzV7Kb8BCTXeBKo+bzN+R0Pj4c4lOEqjrMI\ntrun83QGiHifBsp/lmzrwovy78V3G62b3tebnnxVLoCbTpH26KqNN8gdqq+wrtQK\nUpQGS8dzvRN0K1fycAcMDXWtNMHorzX3rxBQPX5JKQKBgQDCIUrqdiztKNVutOdE\nI1GvAKV0M9Jd3Bct2kVKqSj3Y/+mVraN3Hy7+e131kXZTeDkVQmNP36BD883aNHw\nAiNl1SvesgoO4o/Y4zOQkrV/DJDhg9YROuFFK8Qzy6OPWxhK4OQBvl+yZ+RBTFyR\nb9L9DxOXld/kftOTiEhAHRSn9A==\n-----END PRIVATE KEY-----\n",
+			"client_email": "dialogflowservices@canonagent-nvpmlh.iam.gserviceaccount.com"
+		}
+	},
+	"mockServer": "https://core-mock-dev.intelli-assist.com:2023",
+	"categories": {
+		"canonCategory": {
+			"insightEngine": "https://core-insightengine-dev.intelli-assist.com:9093",
+			"googleService":{
+				"key": "AIzaSyDgpZC8BTmvw2t4yUgCUoxZHhjy-AxI0vU"
+			},
+			"canonService":{
+				"userid": "CANON0012IN",
+				"password": "AXYZB54321IND"
+			},
+			"botSMSProcess": true,
+			"isCMPEnabled": true,
+			"callcenterServer":"http://core-callcenter-dev.intelli-assist.com:1053"
+		}
+	},
+	"userInfo": {
+    	"email" : "::guest:WHATSAPP:918895151003_2020319023394@@ALMAwizDev",
+    	"token" : "152854391393249",
+    	"lastVerified" : "2018/06/09 11:31:53",
+    	"corporate" : "ALMAwizDev",
+    	"mobileNo" : "7349017975",
+    	"firstName" : "Jubiya",
+    	"lastName" : "Joy",
+    	"gender" : "FEMALE",
+    	"url" : null,
+    	"isDisabled" : false,
+    	"registrationDate" : "2018/02/13",
+    	"lastActive" : "2018/06/09",
+    	"appVer" : "1.0.27",
+    	"osVer" : "android function () {return i.systemVersion;}",
+    	"currentLoc" : {
+        	"lat" : 12.9715987,
+        	"lng" : 77.5945627
+    	},
+		"preferences" : {
+        	"voice" : true,
+        	"autoSendText" : true,
+        	"vibration" : true,
+        	"theme" : "Mono feminine",
+        	"version" : "1.0.27"
+    	},
+    	"addresses" : [
+        {
+			"type" : "abc",
+			"postal_address" : {
+				"doorNo" : "40/4-5 th Cross Road",
+				"building" : "Raja Ram Mohanroy Extension",
+				"locality" : "Bengaluru",
+				"city" : "Bangalore Urban",
+				"state" : "Karnataka",
+				"country" : "India",
+				"pincode" : "560027"
+			},
+			"google_address" : {
+				"name" : "56/1-2, Gottigere - Kengeri Rd, Golahalli, Anjanapura Twp, Bengaluru, Karnataka 560062, India",
+				"loc" : {
+					"lat" : 14.8601315406218,
+					"lng" : 88.5658460686988
+				}
+			},
+			"isDefault" : true
+        },
+		{
+			"type" : "house",
+			"postal_address" : {
+				"doorNo" : "40/4",
+				"building" : "Raja Ram Mohanroy Extension",
+				"locality" : "Bengaluru",
+				"city" : "Bangalore Urban",
+				"state" : "Karnataka",
+				"country" : "India",
+				"pincode" : "560027"
+			},
+			"google_address" : {
+				"name" : "56/1-2, Gottigere - Kengeri Rd, Golahalli, Anjanapura Twp, Bengaluru, Karnataka 560062, India",
+				"loc" : {
+					"lat" : 14.8601315406218,
+					"lng" : 88.5658460686988
+				}
+			},
+			"isDefault" : false
+        }
+		 ]}
+}

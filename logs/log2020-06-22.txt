@@ -1,0 +1,1267 @@
+2020/06/22 12:22:23 INFO validEntities TBD
+2020/06/22 12:22:28 INFO validEntities TBD
+2020/06/22 12:22:28 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 12:22:28 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 12:22:28 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 12:22:30 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 12:22:30 DEBUG TICKET_1592808739441: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 12:22:31 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 12:22:31 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 12:22:33 INFO validEntities TBD
+2020/06/22 12:22:34 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 12:22:34 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 12:22:43 INFO validEntities TBD
+2020/06/22 12:22:44 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAK01056","channel":"whatsapp"},"json":true}
+2020/06/22 12:22:44 DEBUG Serial number util response: {"status":true,"value":"KMAK01056"}
+2020/06/22 12:22:44 DEBUG TICKET_1592808739441: Serial Number: KMAK01056 => KMAK01056
+2020/06/22 13:42:25 INFO validEntities TBD
+2020/06/22 13:42:30 INFO validEntities TBD
+2020/06/22 13:42:30 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:42:31 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:42:31 DEBUG TICKET_1592813541807: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:42:31 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:42:31 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:42:31 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:42:32 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:42:32 DEBUG TICKET_1592813541807: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:42:34 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:42:34 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:42:35 INFO validEntities TBD
+2020/06/22 13:42:36 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 13:42:36 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 13:42:46 INFO validEntities TBD
+2020/06/22 13:42:46 INFO validEntities TBD
+2020/06/22 13:42:47 ERROR DialogFlow Service: Failed to handle Intent: AssertionError: expected false to equal true
+2020/06/22 13:42:47 ERROR AssertionError: expected false to equal true
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\test\complaintsubCategory.spec.js:124:30
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\testEngine.js:1:63544
+    at Object._0x31ae30.(anonymous function) [as hfNIS] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7600)
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:8206
+    at Object._0x4dc8ed.(anonymous function) [as IEfFg] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:3352)
+    at _0x1874b7.detectIntent._0x466d56 (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7053)
+    at <anonymous>
+2020/06/22 13:43:18 INFO validEntities TBD
+2020/06/22 13:43:22 INFO validEntities TBD
+2020/06/22 13:43:23 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:43:24 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:43:24 DEBUG TICKET_1592813594646: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:43:24 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:43:24 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:43:24 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:43:25 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:43:25 DEBUG TICKET_1592813594646: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:43:26 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:43:26 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:43:28 INFO validEntities TBD
+2020/06/22 13:43:29 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 13:43:29 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 13:43:38 INFO validEntities TBD
+2020/06/22 13:43:38 INFO validEntities TBD
+2020/06/22 13:43:39 ERROR DialogFlow Service: Failed to handle Intent: AssertionError: expected false to equal true
+2020/06/22 13:43:39 ERROR AssertionError: expected false to equal true
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\test\complaintsubCategory.spec.js:124:30
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\testEngine.js:1:63544
+    at Object._0x31ae30.(anonymous function) [as hfNIS] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7600)
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:8206
+    at Object._0x4dc8ed.(anonymous function) [as IEfFg] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:3352)
+    at _0x1874b7.detectIntent._0x466d56 (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7053)
+    at <anonymous>
+2020/06/22 13:44:08 INFO validEntities TBD
+2020/06/22 13:44:12 INFO validEntities TBD
+2020/06/22 13:44:13 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:44:14 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:44:14 DEBUG TICKET_1592813644572: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:44:14 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:44:14 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:44:14 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:44:14 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:44:14 DEBUG TICKET_1592813644572: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:44:16 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:44:16 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:44:18 INFO validEntities TBD
+2020/06/22 13:44:18 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 13:44:19 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 13:44:19 DEBUG TICKET_1592813644572: Serial Number: hango => null
+2020/06/22 13:44:19 INFO validEntities TBD
+2020/06/22 13:44:20 ERROR DialogFlow Service: Failed to handle Intent: AssertionError: expected false to equal true
+2020/06/22 13:44:20 ERROR AssertionError: expected false to equal true
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\test\complaintsubCategory.spec.js:124:30
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\testEngine.js:1:63544
+    at Object._0x31ae30.(anonymous function) [as hfNIS] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7600)
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:8206
+    at Object._0x4dc8ed.(anonymous function) [as IEfFg] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:3352)
+    at _0x1874b7.detectIntent._0x466d56 (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7053)
+    at <anonymous>
+2020/06/22 13:45:05 INFO validEntities TBD
+2020/06/22 13:45:10 INFO validEntities TBD
+2020/06/22 13:45:10 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:45:11 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:45:11 DEBUG TICKET_1592813702198: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:45:11 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:45:11 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:45:11 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:45:12 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:45:12 DEBUG TICKET_1592813702198: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:45:13 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:45:13 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:45:15 INFO validEntities TBD
+2020/06/22 13:45:16 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 13:45:16 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 13:45:16 DEBUG TICKET_1592813702198: Serial Number: hango => null
+2020/06/22 13:45:16 INFO validEntities TBD
+2020/06/22 13:45:17 ERROR DialogFlow Service: Failed to handle Intent: AssertionError: expected false to equal true
+2020/06/22 13:45:17 ERROR AssertionError: expected false to equal true
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\test\complaintsubCategory.spec.js:124:30
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\testEngine.js:1:63544
+    at Object._0x31ae30.(anonymous function) [as hfNIS] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7600)
+    at D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:8206
+    at Object._0x4dc8ed.(anonymous function) [as IEfFg] (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:3352)
+    at _0x1874b7.detectIntent._0x466d56 (D:\Category_Development\MainServerCategory-Canon-complaint-Jubiya\src\poca-test\dialogFlowService.js:1:7053)
+    at <anonymous>
+2020/06/22 13:46:48 INFO validEntities TBD
+2020/06/22 13:46:53 INFO validEntities TBD
+2020/06/22 13:46:53 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:46:54 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:46:54 DEBUG TICKET_1592813805201: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:46:54 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:46:54 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:46:54 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:46:55 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:46:55 DEBUG TICKET_1592813805201: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:46:56 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:46:56 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:46:58 INFO validEntities TBD
+2020/06/22 13:46:59 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 13:46:59 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 13:46:59 DEBUG TICKET_1592813805201: Serial Number: hango => null
+2020/06/22 13:46:59 INFO validEntities TBD
+2020/06/22 13:47:00 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 13:47:00 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 13:51:36 INFO validEntities TBD
+2020/06/22 13:51:40 INFO validEntities TBD
+2020/06/22 13:51:41 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:51:42 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:51:42 DEBUG TICKET_1592814092941: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:51:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 13:51:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 13:51:42 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 13:51:43 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 13:51:43 DEBUG TICKET_1592814092941: Serial Number: YGU09172 => YGU09172
+2020/06/22 13:51:44 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 13:51:44 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 13:51:46 INFO validEntities TBD
+2020/06/22 13:51:47 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 13:51:47 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 13:51:47 DEBUG TICKET_1592814092941: Serial Number: hango => null
+2020/06/22 13:51:47 INFO validEntities TBD
+2020/06/22 13:51:48 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 13:51:49 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 13:51:49 DEBUG TICKET_1592814092941: Serial Number: hango => null
+2020/06/22 13:51:49 INFO validEntities TBD
+2020/06/22 13:51:49 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 13:51:49 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:01:44 INFO validEntities TBD
+2020/06/22 14:01:48 INFO validEntities TBD
+2020/06/22 14:01:49 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:01:49 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:01:49 DEBUG TICKET_1592814700231: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:01:49 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:01:50 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 14:01:50 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:01:50 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:01:50 DEBUG TICKET_1592814700231: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:01:52 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:01:52 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:01:53 INFO validEntities TBD
+2020/06/22 14:01:54 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:01:55 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:01:55 DEBUG TICKET_1592814700231: Serial Number: hango => null
+2020/06/22 14:01:55 INFO validEntities TBD
+2020/06/22 14:01:55 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:01:56 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:01:56 DEBUG TICKET_1592814700231: Serial Number: hango => null
+2020/06/22 14:01:56 INFO validEntities TBD
+2020/06/22 14:01:57 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:01:58 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:01:58 DEBUG TICKET_1592814700231: Serial Number: hango => null
+2020/06/22 14:02:01 INFO validEntities TBD
+2020/06/22 14:02:02 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:02:02 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"COMPLETED"}}
+2020/06/22 14:02:33 INFO validEntities TBD
+2020/06/22 14:02:37 INFO validEntities TBD
+2020/06/22 14:02:37 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:02:38 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:02:38 DEBUG TICKET_1592814749370: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:02:38 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:02:38 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 14:02:38 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:02:39 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:02:39 DEBUG TICKET_1592814749370: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:02:41 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:02:41 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:02:42 INFO validEntities TBD
+2020/06/22 14:02:43 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:02:44 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:02:44 DEBUG TICKET_1592814749370: Serial Number: hango => null
+2020/06/22 14:02:44 INFO validEntities TBD
+2020/06/22 14:02:44 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:02:45 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:02:45 DEBUG TICKET_1592814749370: Serial Number: hango => null
+2020/06/22 14:02:45 INFO validEntities TBD
+2020/06/22 14:02:46 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:02:46 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:02:46 DEBUG TICKET_1592814749370: Serial Number: hango => null
+2020/06/22 14:03:57 INFO validEntities TBD
+2020/06/22 14:04:01 INFO validEntities TBD
+2020/06/22 14:04:02 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:04:03 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:04:03 DEBUG TICKET_1592814833686: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:04:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:04:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"YGU09172"}
+2020/06/22 14:04:03 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"YGU09172","channel":"whatsapp"},"json":true}
+2020/06/22 14:04:03 DEBUG Serial number util response: {"status":true,"value":"YGU09172"}
+2020/06/22 14:04:03 DEBUG TICKET_1592814833686: Serial Number: YGU09172 => YGU09172
+2020/06/22 14:04:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:04:05 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"YGU09172","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:04:07 INFO validEntities TBD
+2020/06/22 14:04:07 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:04:08 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:04:08 DEBUG TICKET_1592814833686: Serial Number: hango => null
+2020/06/22 14:04:08 INFO validEntities TBD
+2020/06/22 14:04:09 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"hango","channel":"whatsapp"},"json":true}
+2020/06/22 14:04:09 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:04:09 DEBUG TICKET_1592814833686: Serial Number: hango => null
+2020/06/22 14:04:09 INFO validEntities TBD
+2020/06/22 14:04:10 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:04:10 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:13:58 INFO validEntities TBD
+2020/06/22 14:14:02 INFO validEntities TBD
+2020/06/22 14:14:02 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:14:02 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAJ61250"}
+2020/06/22 14:14:02 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAJ61250","channel":"whatsapp"},"json":true}
+2020/06/22 14:14:03 DEBUG Serial number util response: {"status":true,"value":"KMAJ61250"}
+2020/06/22 14:14:03 DEBUG TICKET_1592815434289: Serial Number: KMAJ61250 => KMAJ61250
+2020/06/22 14:14:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:14:05 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAJ61250","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:14:07 INFO validEntities TBD
+2020/06/22 14:14:07 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:14:07 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:25:50 INFO validEntities TBD
+2020/06/22 14:25:54 INFO validEntities TBD
+2020/06/22 14:25:55 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:25:55 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAJ59289"}
+2020/06/22 14:25:55 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAJ59289","channel":"whatsapp"},"json":true}
+2020/06/22 14:25:56 DEBUG Serial number util response: {"status":true,"value":"KMAJ59289"}
+2020/06/22 14:25:56 DEBUG TICKET_1592816146731: Serial Number: KMAJ59289 => KMAJ59289
+2020/06/22 14:25:58 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:25:58 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAJ59289","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:25:59 INFO validEntities TBD
+2020/06/22 14:26:00 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:26:00 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:26:51 INFO validEntities TBD
+2020/06/22 14:26:55 INFO validEntities TBD
+2020/06/22 14:26:56 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:26:56 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAJ61250"}
+2020/06/22 14:26:56 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAJ61250","channel":"whatsapp"},"json":true}
+2020/06/22 14:26:57 DEBUG Serial number util response: {"status":true,"value":"KMAJ61250"}
+2020/06/22 14:26:57 DEBUG TICKET_1592816207474: Serial Number: KMAJ61250 => KMAJ61250
+2020/06/22 14:26:58 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:26:58 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAJ61250","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:27:00 INFO validEntities TBD
+2020/06/22 14:27:01 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:27:01 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:27:48 INFO validEntities TBD
+2020/06/22 14:27:52 INFO validEntities TBD
+2020/06/22 14:27:53 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:27:53 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 14:27:53 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 14:27:54 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 14:27:54 DEBUG TICKET_1592816264676: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 14:27:55 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:27:55 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:27:57 INFO validEntities TBD
+2020/06/22 14:27:58 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:27:58 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:38:36 INFO validEntities TBD
+2020/06/22 14:38:39 INFO validEntities TBD
+2020/06/22 14:38:41 INFO validEntities TBD
+2020/06/22 14:38:42 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"𝚁𝚉𝙳02222","channel":"whatsapp"},"json":true}
+2020/06/22 14:38:43 DEBUG Serial number util response: {"status":true,"value":"𝚁𝚉𝙳02222"}
+2020/06/22 14:38:43 DEBUG TICKET_1592816912891: Serial Number: 𝚁𝚉𝙳02222 => 𝚁𝚉𝙳02222
+2020/06/22 14:38:43 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:38:43 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"𝚁𝚉𝙳02222"}
+2020/06/22 14:38:43 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"𝚁𝚉𝙳02222","channel":"whatsapp"},"json":true}
+2020/06/22 14:38:43 DEBUG Serial number util response: {"status":true,"value":"𝚁𝚉𝙳02222"}
+2020/06/22 14:38:43 DEBUG TICKET_1592816912891: Serial Number: 𝚁𝚉𝙳02222 => 𝚁𝚉𝙳02222
+2020/06/22 14:39:21 INFO validEntities TBD
+2020/06/22 14:39:22 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:39:22 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO","index":2,"isLast":false,"obj":{"name":"SERIAL_NO","type":"SINGLE","completed":false,"depend":"PRODUCT_TYPE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:39:22 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"yes","channel":"whatsapp"},"json":true}
+2020/06/22 14:39:22 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:39:22 DEBUG TICKET_1592816912891: Serial Number: yes => null
+2020/06/22 14:39:31 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:39:31 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"𝚁𝚉𝙳02222","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 14:40:22 INFO validEntities TBD
+2020/06/22 14:40:25 INFO validEntities TBD
+2020/06/22 14:40:27 INFO validEntities TBD
+2020/06/22 14:40:28 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 14:40:28 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"RZD02222"}
+2020/06/22 14:40:28 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"RZD02222","channel":"whatsapp"},"json":true}
+2020/06/22 14:40:29 DEBUG Serial number util response: {"status":true,"value":"RZD02222"}
+2020/06/22 14:40:29 DEBUG TICKET_1592817019239: Serial Number: RZD02222 => RZD02222
+2020/06/22 14:41:07 INFO validEntities TBD
+2020/06/22 14:41:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 14:41:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO","index":2,"isLast":false,"obj":{"name":"SERIAL_NO","type":"SINGLE","completed":false,"depend":"PRODUCT_TYPE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 14:41:08 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"yes","channel":"whatsapp"},"json":true}
+2020/06/22 14:41:09 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 14:41:09 DEBUG TICKET_1592817019239: Serial Number: yes => null
+2020/06/22 14:41:16 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 14:41:16 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"RZD02222","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:13:02 INFO validEntities TBD
+2020/06/22 15:13:05 INFO validEntities TBD
+2020/06/22 15:16:15 INFO validEntities TBD
+2020/06/22 15:16:15 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:16:15 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"RZD02222"}
+2020/06/22 15:16:15 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"RZD02222","channel":"whatsapp"},"json":true}
+2020/06/22 15:16:16 DEBUG Serial number util response: {"status":true,"value":"RZD02222"}
+2020/06/22 15:16:16 DEBUG TICKET_1592818978766: Serial Number: RZD02222 => RZD02222
+2020/06/22 15:16:22 INFO validEntities TBD
+2020/06/22 15:16:25 INFO validEntities TBD
+2020/06/22 15:16:27 INFO validEntities TBD
+2020/06/22 15:16:28 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"𝚁𝚉𝙳02222","channel":"whatsapp"},"json":true}
+2020/06/22 15:16:29 DEBUG Serial number util response: {"status":true,"value":"𝚁𝚉𝙳02222"}
+2020/06/22 15:16:29 DEBUG TICKET_1592819179172: Serial Number: 𝚁𝚉𝙳02222 => 𝚁𝚉𝙳02222
+2020/06/22 15:16:29 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:16:29 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"𝚁𝚉𝙳02222"}
+2020/06/22 15:16:29 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"𝚁𝚉𝙳02222","channel":"whatsapp"},"json":true}
+2020/06/22 15:16:30 DEBUG Serial number util response: {"status":true,"value":"𝚁𝚉𝙳02222"}
+2020/06/22 15:16:30 DEBUG TICKET_1592819179172: Serial Number: 𝚁𝚉𝙳02222 => 𝚁𝚉𝙳02222
+2020/06/22 15:17:07 INFO validEntities TBD
+2020/06/22 15:17:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 15:17:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO","index":2,"isLast":false,"obj":{"name":"SERIAL_NO","type":"SINGLE","completed":false,"depend":"PRODUCT_TYPE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 15:17:08 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"yes","channel":"whatsapp"},"json":true}
+2020/06/22 15:17:09 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 15:17:09 DEBUG TICKET_1592819179172: Serial Number: yes => null
+2020/06/22 15:17:17 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 15:17:17 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"𝚁𝚉𝙳02222","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:38:59 INFO validEntities TBD
+2020/06/22 15:39:04 INFO validEntities TBD
+2020/06/22 15:39:04 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:39:04 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 15:39:04 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 15:39:05 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 15:39:05 DEBUG TICKET_1592820535911: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 15:39:07 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 15:39:07 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:39:09 INFO validEntities TBD
+2020/06/22 15:39:09 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 15:39:09 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 15:39:19 INFO validEntities TBD
+2020/06/22 15:39:23 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:39:23 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"343001"}
+2020/06/22 15:39:25 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 15:39:39 INFO validEntities TBD
+2020/06/22 15:39:44 INFO validEntities TBD
+2020/06/22 15:39:44 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:39:44 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 15:39:44 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 15:39:45 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 15:39:45 DEBUG TICKET_1592820576122: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 15:39:47 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 15:39:47 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:39:49 INFO validEntities TBD
+2020/06/22 15:39:50 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 15:39:50 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 15:39:59 INFO validEntities TBD
+2020/06/22 15:40:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:40:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"343001"}
+2020/06/22 15:40:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 15:43:11 INFO validEntities TBD
+2020/06/22 15:43:15 INFO validEntities TBD
+2020/06/22 15:43:16 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:43:16 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 15:43:16 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 15:43:17 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 15:43:17 DEBUG TICKET_1592820787738: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 15:43:18 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 15:43:18 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:43:20 INFO validEntities TBD
+2020/06/22 15:43:21 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 15:43:21 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 15:43:30 INFO validEntities TBD
+2020/06/22 15:43:35 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:43:35 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"343001"}
+2020/06/22 15:43:37 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 15:59:18 INFO validEntities TBD
+2020/06/22 15:59:22 INFO validEntities TBD
+2020/06/22 15:59:23 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 15:59:23 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG85408"}
+2020/06/22 15:59:23 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG85408","channel":"whatsapp"},"json":true}
+2020/06/22 15:59:24 DEBUG Serial number util response: {"status":true,"value":"KMAG85408"}
+2020/06/22 15:59:24 DEBUG TICKET_1592821754285: Serial Number: KMAG85408 => KMAG85408
+2020/06/22 15:59:25 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 15:59:25 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG85408","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 15:59:27 INFO validEntities TBD
+2020/06/22 15:59:28 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 15:59:28 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 15:59:58 INFO validEntities TBD
+2020/06/22 16:00:02 INFO validEntities TBD
+2020/06/22 16:00:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 16:00:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG85408"}
+2020/06/22 16:00:03 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG85408","channel":"whatsapp"},"json":true}
+2020/06/22 16:00:04 DEBUG Serial number util response: {"status":true,"value":"KMAG85408"}
+2020/06/22 16:00:04 DEBUG TICKET_1592821794293: Serial Number: KMAG85408 => KMAG85408
+2020/06/22 16:00:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 16:00:05 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG85408","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 16:00:07 INFO validEntities TBD
+2020/06/22 16:00:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 16:00:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 16:02:00 INFO validEntities TBD
+2020/06/22 16:02:04 INFO validEntities TBD
+2020/06/22 16:02:05 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 16:02:05 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG85408"}
+2020/06/22 16:02:05 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG85408","channel":"whatsapp"},"json":true}
+2020/06/22 16:02:06 DEBUG Serial number util response: {"status":true,"value":"KMAG85408"}
+2020/06/22 16:02:06 DEBUG TICKET_1592821916272: Serial Number: KMAG85408 => KMAG85408
+2020/06/22 16:02:07 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 16:02:07 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG85408","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 16:02:09 INFO validEntities TBD
+2020/06/22 16:02:09 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 16:02:09 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 16:10:03 INFO validEntities TBD
+2020/06/22 16:10:08 INFO validEntities TBD
+2020/06/22 16:10:09 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 16:10:09 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG85408"}
+2020/06/22 16:10:09 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG85408","channel":"whatsapp"},"json":true}
+2020/06/22 16:10:09 DEBUG Serial number util response: {"status":true,"value":"KMAG85408"}
+2020/06/22 16:10:09 DEBUG TICKET_1592822400079: Serial Number: KMAG85408 => KMAG85408
+2020/06/22 16:10:11 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 16:10:11 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG85408","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 16:10:13 INFO validEntities TBD
+2020/06/22 16:10:13 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 16:10:13 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 16:12:56 INFO validEntities TBD
+2020/06/22 16:13:00 INFO validEntities TBD
+2020/06/22 16:13:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 16:13:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG85408"}
+2020/06/22 16:13:01 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG85408","channel":"whatsapp"},"json":true}
+2020/06/22 16:13:02 DEBUG Serial number util response: {"status":true,"value":"KMAG85408"}
+2020/06/22 16:13:02 DEBUG TICKET_1592822572445: Serial Number: KMAG85408 => KMAG85408
+2020/06/22 16:13:03 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 16:13:03 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG85408","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 16:13:05 INFO validEntities TBD
+2020/06/22 16:13:06 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 16:13:06 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 16:16:01 INFO validEntities TBD
+2020/06/22 16:16:03 INFO validEntities TBD
+2020/06/22 16:16:06 INFO validEntities TBD
+2020/06/22 16:16:06 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 16:16:06 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"R41000256"}
+2020/06/22 16:16:06 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"R41000256","channel":"whatsapp"},"json":true}
+2020/06/22 16:16:07 DEBUG Serial number util response: {"status":true,"value":"R41000256"}
+2020/06/22 16:16:07 DEBUG TICKET_1592822757430: Serial Number: R41000256 => R41000256
+2020/06/22 16:16:46 INFO validEntities TBD
+2020/06/22 16:16:46 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 16:16:46 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO","index":2,"isLast":false,"obj":{"name":"SERIAL_NO","type":"SINGLE","completed":false,"depend":"PRODUCT_TYPE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 16:16:46 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"yes","channel":"whatsapp"},"json":true}
+2020/06/22 16:16:47 DEBUG Serial number util response: {"status":false,"value":""}
+2020/06/22 16:16:47 DEBUG TICKET_1592822757430: Serial Number: yes => null
+2020/06/22 16:16:55 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 16:16:55 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"R41000256","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 17:55:27 INFO validEntities TBD
+2020/06/22 17:55:31 INFO validEntities TBD
+2020/06/22 17:55:32 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:55:32 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 17:55:32 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 17:55:33 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 17:55:33 DEBUG TICKET_1592828723106: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 17:55:35 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:55:35 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 17:55:36 INFO validEntities TBD
+2020/06/22 17:55:37 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:55:37 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:55:46 INFO validEntities TBD
+2020/06/22 17:55:51 INFO validEntities TBD
+2020/06/22 17:55:52 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:55:52 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"LOCALITY_PINCODE","index":13,"isLast":false,"obj":{"name":"LOCALITY_PINCODE","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:55:53 INFO validEntities TBD
+2020/06/22 17:55:54 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:55:54 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"LOCALITY_PINCODE","index":13,"isLast":false,"obj":{"name":"LOCALITY_PINCODE","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:55:56 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:55:56 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para, 713166"}
+2020/06/22 17:55:56 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 17:57:05 INFO validEntities TBD
+2020/06/22 17:57:09 INFO validEntities TBD
+2020/06/22 17:57:10 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:57:10 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 17:57:10 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 17:57:11 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 17:57:11 DEBUG TICKET_1592828821471: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 17:57:12 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:57:12 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 17:57:14 INFO validEntities TBD
+2020/06/22 17:57:15 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:57:15 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:57:24 INFO validEntities TBD
+2020/06/22 17:57:29 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:57:29 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 17:57:32 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:57:32 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 17:57:33 INFO validEntities TBD
+2020/06/22 17:57:34 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:57:34 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:57:40 INFO validEntities TBD
+2020/06/22 17:57:41 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:57:41 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:57:44 INFO validEntities TBD
+2020/06/22 17:57:45 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:57:45 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:57:46 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:57:46 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para, 713166"}
+2020/06/22 17:57:48 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:57:48 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para, 713166","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 17:59:29 INFO validEntities TBD
+2020/06/22 17:59:33 INFO validEntities TBD
+2020/06/22 17:59:33 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:59:33 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 17:59:33 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 17:59:34 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 17:59:34 DEBUG TICKET_1592828965525: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 17:59:36 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:59:36 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 17:59:38 INFO validEntities TBD
+2020/06/22 17:59:38 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:59:38 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 17:59:48 INFO validEntities TBD
+2020/06/22 17:59:52 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 17:59:52 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 17:59:55 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 17:59:55 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 17:59:57 INFO validEntities TBD
+2020/06/22 17:59:58 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 17:59:58 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:00:04 INFO validEntities TBD
+2020/06/22 18:00:04 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:00:04 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:00:08 INFO validEntities TBD
+2020/06/22 18:00:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:00:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:00:10 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:00:10 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para, 713166"}
+2020/06/22 18:00:12 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:00:12 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para, 713166","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:02:19 INFO validEntities TBD
+2020/06/22 18:02:23 INFO validEntities TBD
+2020/06/22 18:02:24 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:02:24 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:02:24 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:02:25 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:02:25 DEBUG TICKET_1592829135776: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:02:27 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:02:27 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:02:28 INFO validEntities TBD
+2020/06/22 18:02:29 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:02:29 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:02:38 INFO validEntities TBD
+2020/06/22 18:02:43 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:02:43 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 18:02:46 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:02:46 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:02:48 INFO validEntities TBD
+2020/06/22 18:02:48 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:02:48 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:02:55 INFO validEntities TBD
+2020/06/22 18:02:55 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:02:55 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:02:58 INFO validEntities TBD
+2020/06/22 18:02:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:02:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:03:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:03:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para"}
+2020/06/22 18:03:03 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:03:03 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur,abujhati,jamalpur,purba bardhaman, 713166 near malik para","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:03:46 INFO validEntities TBD
+2020/06/22 18:03:51 INFO validEntities TBD
+2020/06/22 18:03:51 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:03:51 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:03:51 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:03:52 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:03:52 DEBUG TICKET_1592829223006: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:03:54 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:03:54 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:03:55 INFO validEntities TBD
+2020/06/22 18:03:56 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:03:56 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:04:05 INFO validEntities TBD
+2020/06/22 18:04:10 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:04:10 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 18:04:13 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:04:13 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:04:15 INFO validEntities TBD
+2020/06/22 18:04:15 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:04:15 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:04:21 INFO validEntities TBD
+2020/06/22 18:04:22 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:04:22 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:04:25 INFO validEntities TBD
+2020/06/22 18:04:26 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:04:26 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:04:27 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:04:27 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman - 713166 near malik para"}
+2020/06/22 18:04:29 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:04:29 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman - 713166 near malik para","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:04:55 INFO validEntities TBD
+2020/06/22 18:04:59 INFO validEntities TBD
+2020/06/22 18:05:00 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:05:00 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:05:00 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:05:01 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:05:01 DEBUG TICKET_1592829292137: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:05:03 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:05:03 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:05:04 INFO validEntities TBD
+2020/06/22 18:05:05 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:05:05 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:05:14 INFO validEntities TBD
+2020/06/22 18:05:19 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:05:19 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 18:05:22 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:05:22 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:05:23 INFO validEntities TBD
+2020/06/22 18:05:24 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:05:24 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:05:30 INFO validEntities TBD
+2020/06/22 18:05:31 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:05:31 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:05:34 INFO validEntities TBD
+2020/06/22 18:05:34 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:05:34 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:05:36 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:05:36 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman ,713166, near malik para"}
+2020/06/22 18:05:38 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:05:38 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman ,713166, near malik para","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:05:50 INFO validEntities TBD
+2020/06/22 18:05:54 INFO validEntities TBD
+2020/06/22 18:05:55 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:05:55 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:05:55 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:05:55 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:05:55 DEBUG TICKET_1592829346509: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:05:57 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:05:57 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:05:59 INFO validEntities TBD
+2020/06/22 18:05:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:05:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:06:09 INFO validEntities TBD
+2020/06/22 18:06:13 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:06:13 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 18:06:16 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:06:16 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:06:18 INFO validEntities TBD
+2020/06/22 18:06:18 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:06:18 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:06:25 INFO validEntities TBD
+2020/06/22 18:06:25 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:06:25 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:06:29 INFO validEntities TBD
+2020/06/22 18:06:29 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:06:29 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:06:31 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:06:31 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman 713166 near malik para"}
+2020/06/22 18:06:34 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:06:34 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman 713166 near malik para","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:09:07 INFO validEntities TBD
+2020/06/22 18:09:11 INFO validEntities TBD
+2020/06/22 18:09:12 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:09:12 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:09:12 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:09:13 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:09:13 DEBUG TICKET_1592829543859: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:09:14 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:09:14 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:09:16 INFO validEntities TBD
+2020/06/22 18:09:17 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:09:17 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:09:26 INFO validEntities TBD
+2020/06/22 18:09:30 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:09:30 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"560033"}
+2020/06/22 18:09:34 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:09:34 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"560033","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:09:35 INFO validEntities TBD
+2020/06/22 18:09:36 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:09:36 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:09:42 INFO validEntities TBD
+2020/06/22 18:09:42 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:09:42 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:09:46 INFO validEntities TBD
+2020/06/22 18:09:46 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:09:46 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:09:48 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:09:48 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman near malik para"}
+2020/06/22 18:09:50 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:09:50 DEBUG CATEGORY_LIB : META DATA : {"state":"ADDRESS","value":"ajapur abujhati jamalpur purba bardhaman near malik para","depends":["ADDRESS_CNF","DOOR_NO","BUILDING_NO_CNF","STREET_NAME","STREET_NAME_CNF"]}
+2020/06/22 18:11:08 INFO validEntities TBD
+2020/06/22 18:11:12 INFO validEntities TBD
+2020/06/22 18:11:13 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:11:13 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:11:13 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:11:14 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:11:14 DEBUG TICKET_1592829664780: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:11:16 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:11:16 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:11:17 INFO validEntities TBD
+2020/06/22 18:11:18 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:11:18 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:11:27 INFO validEntities TBD
+2020/06/22 18:11:32 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:11:32 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"700017"}
+2020/06/22 18:11:35 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:11:35 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"700017","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:11:37 INFO validEntities TBD
+2020/06/22 18:11:37 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:11:37 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:11:42 INFO validEntities TBD
+2020/06/22 18:11:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:11:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY","value":"Theater road"}
+2020/06/22 18:11:44 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:11:44 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY","value":"Theater road","depends":[]}
+2020/06/22 18:11:46 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:11:46 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"NAME","value":"ajapur abujhati jamalpur purba bardhaman near malik para"}
+2020/06/22 18:11:46 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 18:14:47 INFO validEntities TBD
+2020/06/22 18:14:51 INFO validEntities TBD
+2020/06/22 18:14:52 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:14:52 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:14:52 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:14:53 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:14:53 DEBUG TICKET_1592829883942: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:14:55 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:14:55 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:14:56 INFO validEntities TBD
+2020/06/22 18:14:57 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:14:57 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:15:06 INFO validEntities TBD
+2020/06/22 18:15:11 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:15:11 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:15:15 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:15:15 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:15:16 INFO validEntities TBD
+2020/06/22 18:15:17 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:15:17 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:15:21 INFO validEntities TBD
+2020/06/22 18:15:22 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:15:22 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY","value":"Theater road"}
+2020/06/22 18:15:24 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:15:24 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY","value":"Theater road","depends":[]}
+2020/06/22 18:16:57 INFO validEntities TBD
+2020/06/22 18:17:02 INFO validEntities TBD
+2020/06/22 18:17:02 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:17:02 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:17:02 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:17:03 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:17:03 DEBUG TICKET_1592830014154: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:17:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:17:05 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:17:06 INFO validEntities TBD
+2020/06/22 18:17:07 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:17:07 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:17:17 INFO validEntities TBD
+2020/06/22 18:17:21 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:17:21 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:17:25 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:17:25 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:17:26 INFO validEntities TBD
+2020/06/22 18:17:27 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:17:27 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:17:32 INFO validEntities TBD
+2020/06/22 18:20:13 INFO validEntities TBD
+2020/06/22 18:20:17 INFO validEntities TBD
+2020/06/22 18:20:17 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:20:17 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:20:17 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:20:18 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:20:18 DEBUG TICKET_1592830209407: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:20:20 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:20:20 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:20:22 INFO validEntities TBD
+2020/06/22 18:20:22 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:20:22 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:20:32 INFO validEntities TBD
+2020/06/22 18:20:36 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:20:36 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:20:39 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:20:39 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:20:41 INFO validEntities TBD
+2020/06/22 18:20:42 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:20:42 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:20:46 INFO validEntities TBD
+2020/06/22 18:21:38 INFO validEntities TBD
+2020/06/22 18:21:42 INFO validEntities TBD
+2020/06/22 18:21:43 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:21:43 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:21:43 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:21:44 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:21:44 DEBUG TICKET_1592830294720: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:21:45 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:21:45 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:21:47 INFO validEntities TBD
+2020/06/22 18:21:48 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:21:48 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:21:57 INFO validEntities TBD
+2020/06/22 18:22:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:22:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:22:05 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:22:05 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:22:06 INFO validEntities TBD
+2020/06/22 18:22:07 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:22:07 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:22:11 INFO validEntities TBD
+2020/06/22 18:22:34 INFO validEntities TBD
+2020/06/22 18:22:38 INFO validEntities TBD
+2020/06/22 18:22:39 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:22:39 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:22:39 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:22:40 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:22:40 DEBUG TICKET_1592830350470: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:22:41 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:22:41 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:22:43 INFO validEntities TBD
+2020/06/22 18:22:43 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:22:43 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:22:54 INFO validEntities TBD
+2020/06/22 18:22:58 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:22:58 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:23:01 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:23:01 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:23:03 INFO validEntities TBD
+2020/06/22 18:23:04 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:23:04 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:23:09 INFO validEntities TBD
+2020/06/22 18:24:40 INFO validEntities TBD
+2020/06/22 18:24:44 INFO validEntities TBD
+2020/06/22 18:24:45 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:24:45 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:24:45 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:24:46 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:24:46 DEBUG TICKET_1592830476585: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:24:47 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:24:47 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:24:49 INFO validEntities TBD
+2020/06/22 18:24:49 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:24:49 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:24:59 INFO validEntities TBD
+2020/06/22 18:25:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:25:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:25:07 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:25:07 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:25:08 INFO validEntities TBD
+2020/06/22 18:25:09 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:25:09 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:25:13 INFO validEntities TBD
+2020/06/22 18:25:59 INFO validEntities TBD
+2020/06/22 18:26:00 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:26:00 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"PRODUCT_TYPE","value":"TYPE 1"}
+2020/06/22 18:26:00 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 18:26:02 INFO validEntities TBD
+2020/06/22 18:26:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:26:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"PRODUCT_TYPE","value":"KMAG43980"}
+2020/06/22 18:26:03 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"REJECTED"}
+2020/06/22 18:26:04 INFO validEntities TBD
+2020/06/22 18:27:30 INFO validEntities TBD
+2020/06/22 18:27:34 INFO validEntities TBD
+2020/06/22 18:27:35 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:27:35 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:27:35 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:27:36 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:27:36 DEBUG TICKET_1592830646597: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:27:37 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:27:37 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:27:39 INFO validEntities TBD
+2020/06/22 18:27:40 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:27:40 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:27:49 INFO validEntities TBD
+2020/06/22 18:27:53 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:27:53 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:27:57 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:27:57 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:27:58 INFO validEntities TBD
+2020/06/22 18:27:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:27:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:31:52 INFO validEntities TBD
+2020/06/22 18:31:57 INFO validEntities TBD
+2020/06/22 18:31:57 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:31:57 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:31:57 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:31:58 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:31:58 DEBUG TICKET_1592830908952: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:32:00 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:32:00 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:32:02 INFO validEntities TBD
+2020/06/22 18:32:02 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:32:02 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:32:12 INFO validEntities TBD
+2020/06/22 18:32:16 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:32:16 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:32:20 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:32:20 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:32:21 INFO validEntities TBD
+2020/06/22 18:32:22 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:32:22 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:32:26 INFO validEntities TBD
+2020/06/22 18:32:29 INFO validEntities TBD
+2020/06/22 18:32:29 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:32:29 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:32:31 INFO validEntities TBD
+2020/06/22 18:32:32 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:32:32 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:34:17 INFO validEntities TBD
+2020/06/22 18:34:22 INFO validEntities TBD
+2020/06/22 18:34:22 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:34:22 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:34:22 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:34:23 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:34:23 DEBUG TICKET_1592831054083: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:34:25 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:34:25 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:34:26 INFO validEntities TBD
+2020/06/22 18:34:27 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:34:27 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:34:36 INFO validEntities TBD
+2020/06/22 18:34:41 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:34:41 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:34:44 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:34:44 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:34:46 INFO validEntities TBD
+2020/06/22 18:34:47 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:34:47 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:34:51 INFO validEntities TBD
+2020/06/22 18:34:53 INFO validEntities TBD
+2020/06/22 18:34:54 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:34:54 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:34:56 INFO validEntities TBD
+2020/06/22 18:34:56 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:34:56 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:37:30 INFO validEntities TBD
+2020/06/22 18:37:35 INFO validEntities TBD
+2020/06/22 18:37:35 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:37:35 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:37:35 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:37:36 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:37:36 DEBUG TICKET_1592831246887: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:37:38 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:37:38 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:37:39 INFO validEntities TBD
+2020/06/22 18:37:40 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:37:40 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:37:49 INFO validEntities TBD
+2020/06/22 18:37:54 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:37:54 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:37:57 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:37:57 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:37:59 INFO validEntities TBD
+2020/06/22 18:37:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:37:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:38:04 INFO validEntities TBD
+2020/06/22 18:38:06 INFO validEntities TBD
+2020/06/22 18:38:07 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:38:07 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:38:08 INFO validEntities TBD
+2020/06/22 18:38:09 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:38:09 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:39:37 INFO validEntities TBD
+2020/06/22 18:39:42 INFO validEntities TBD
+2020/06/22 18:39:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:39:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:39:42 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:39:43 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:39:43 DEBUG TICKET_1592831373946: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:39:45 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:39:45 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:39:46 INFO validEntities TBD
+2020/06/22 18:39:47 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:39:47 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:39:56 INFO validEntities TBD
+2020/06/22 18:40:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:40:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:40:04 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:40:04 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:40:06 INFO validEntities TBD
+2020/06/22 18:40:06 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:40:06 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:40:11 INFO validEntities TBD
+2020/06/22 18:40:13 INFO validEntities TBD
+2020/06/22 18:40:14 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:40:14 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:40:15 INFO validEntities TBD
+2020/06/22 18:40:16 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:40:16 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:41:19 INFO validEntities TBD
+2020/06/22 18:41:23 INFO validEntities TBD
+2020/06/22 18:41:24 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:41:24 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:41:24 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:41:25 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:41:25 DEBUG TICKET_1592831475456: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:41:26 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:41:26 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:41:28 INFO validEntities TBD
+2020/06/22 18:41:28 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:41:28 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:41:38 INFO validEntities TBD
+2020/06/22 18:41:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:41:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:41:45 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:41:45 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:41:47 INFO validEntities TBD
+2020/06/22 18:41:48 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:41:48 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:41:52 INFO validEntities TBD
+2020/06/22 18:41:54 INFO validEntities TBD
+2020/06/22 18:41:55 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:41:55 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:41:56 INFO validEntities TBD
+2020/06/22 18:41:57 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:41:57 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:42:34 INFO validEntities TBD
+2020/06/22 18:42:38 INFO validEntities TBD
+2020/06/22 18:42:39 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:42:39 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:42:39 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:42:40 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:42:40 DEBUG TICKET_1592831550413: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:42:41 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:42:41 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:42:43 INFO validEntities TBD
+2020/06/22 18:42:43 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:42:43 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:42:53 INFO validEntities TBD
+2020/06/22 18:42:58 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:42:58 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:43:01 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:43:01 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:43:03 INFO validEntities TBD
+2020/06/22 18:43:03 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:43:03 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:43:08 INFO validEntities TBD
+2020/06/22 18:43:10 INFO validEntities TBD
+2020/06/22 18:43:11 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:43:11 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:43:12 INFO validEntities TBD
+2020/06/22 18:43:13 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:43:13 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:43:50 INFO validEntities TBD
+2020/06/22 18:43:54 INFO validEntities TBD
+2020/06/22 18:43:55 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:43:55 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:43:55 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:43:55 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:43:55 DEBUG TICKET_1592831626304: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:43:57 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:43:57 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:43:59 INFO validEntities TBD
+2020/06/22 18:43:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:43:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:44:09 INFO validEntities TBD
+2020/06/22 18:44:13 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:44:13 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:44:16 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:44:16 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:44:18 INFO validEntities TBD
+2020/06/22 18:44:19 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:44:19 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:44:23 INFO validEntities TBD
+2020/06/22 18:44:25 INFO validEntities TBD
+2020/06/22 18:44:26 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:44:26 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:44:28 INFO validEntities TBD
+2020/06/22 18:44:28 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:44:28 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:45:52 INFO validEntities TBD
+2020/06/22 18:45:57 INFO validEntities TBD
+2020/06/22 18:45:57 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:45:57 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:45:57 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:45:58 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:45:58 DEBUG TICKET_1592831749166: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:46:00 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:46:00 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:46:01 INFO validEntities TBD
+2020/06/22 18:46:02 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:46:02 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:46:11 INFO validEntities TBD
+2020/06/22 18:46:16 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:46:16 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:46:19 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:46:19 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:46:21 INFO validEntities TBD
+2020/06/22 18:46:21 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:46:21 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:46:26 INFO validEntities TBD
+2020/06/22 18:46:28 INFO validEntities TBD
+2020/06/22 18:46:29 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:46:29 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:46:30 INFO validEntities TBD
+2020/06/22 18:46:31 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:46:31 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:47:47 INFO validEntities TBD
+2020/06/22 18:47:51 INFO validEntities TBD
+2020/06/22 18:47:52 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:47:52 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:47:52 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:47:53 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:47:53 DEBUG TICKET_1592831863609: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:47:55 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:47:55 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:47:56 INFO validEntities TBD
+2020/06/22 18:47:57 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:47:57 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:48:06 INFO validEntities TBD
+2020/06/22 18:48:11 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:48:11 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:48:14 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:48:14 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:48:16 INFO validEntities TBD
+2020/06/22 18:48:17 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:48:17 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:48:21 INFO validEntities TBD
+2020/06/22 18:48:23 INFO validEntities TBD
+2020/06/22 18:48:24 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:48:24 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:48:25 INFO validEntities TBD
+2020/06/22 18:48:26 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:48:26 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:49:26 INFO validEntities TBD
+2020/06/22 18:49:30 INFO validEntities TBD
+2020/06/22 18:49:30 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:49:30 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:49:30 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:49:31 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:49:31 DEBUG TICKET_1592831962298: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:49:33 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:49:33 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:49:35 INFO validEntities TBD
+2020/06/22 18:49:35 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:49:35 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:49:44 INFO validEntities TBD
+2020/06/22 18:49:49 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:49:49 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:49:52 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:49:52 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:49:54 INFO validEntities TBD
+2020/06/22 18:49:54 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:49:54 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:49:59 INFO validEntities TBD
+2020/06/22 18:50:01 INFO validEntities TBD
+2020/06/22 18:50:01 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:50:01 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:50:03 INFO validEntities TBD
+2020/06/22 18:50:04 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:50:04 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:51:38 INFO validEntities TBD
+2020/06/22 18:51:42 INFO validEntities TBD
+2020/06/22 18:51:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:51:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:51:42 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:51:43 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:51:43 DEBUG TICKET_1592832094500: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:51:45 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:51:45 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:51:47 INFO validEntities TBD
+2020/06/22 18:51:47 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:51:47 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:51:56 INFO validEntities TBD
+2020/06/22 18:52:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:52:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:52:04 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:52:04 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:52:06 INFO validEntities TBD
+2020/06/22 18:52:06 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:52:06 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:52:11 INFO validEntities TBD
+2020/06/22 18:52:13 INFO validEntities TBD
+2020/06/22 18:52:14 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:52:14 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:52:15 INFO validEntities TBD
+2020/06/22 18:52:16 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:52:16 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:53:35 INFO validEntities TBD
+2020/06/22 18:53:40 INFO validEntities TBD
+2020/06/22 18:53:40 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:53:40 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:53:40 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:53:41 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:53:41 DEBUG TICKET_1592832212081: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:53:43 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:53:43 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:53:45 INFO validEntities TBD
+2020/06/22 18:53:45 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:53:45 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:53:54 INFO validEntities TBD
+2020/06/22 18:53:59 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:53:59 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:54:02 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:54:02 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:54:04 INFO validEntities TBD
+2020/06/22 18:54:04 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:54:04 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:54:09 INFO validEntities TBD
+2020/06/22 18:54:11 INFO validEntities TBD
+2020/06/22 18:54:12 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:54:12 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:54:13 INFO validEntities TBD
+2020/06/22 18:54:14 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:54:14 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:56:29 INFO validEntities TBD
+2020/06/22 18:56:33 INFO validEntities TBD
+2020/06/22 18:56:34 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:56:34 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:56:34 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:56:35 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:56:35 DEBUG TICKET_1592832385588: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:56:37 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:56:37 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:56:38 INFO validEntities TBD
+2020/06/22 18:56:39 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:56:39 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:56:48 INFO validEntities TBD
+2020/06/22 18:56:53 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:56:53 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:56:56 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:56:56 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:56:58 INFO validEntities TBD
+2020/06/22 18:56:58 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:56:58 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:57:03 INFO validEntities TBD
+2020/06/22 18:57:05 INFO validEntities TBD
+2020/06/22 18:57:06 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:57:06 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:57:07 INFO validEntities TBD
+2020/06/22 18:57:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:57:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:57:44 INFO validEntities TBD
+2020/06/22 18:57:48 INFO validEntities TBD
+2020/06/22 18:57:49 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:57:49 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"KMAG43980"}
+2020/06/22 18:57:49 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"KMAG43980","channel":"whatsapp"},"json":true}
+2020/06/22 18:57:50 DEBUG Serial number util response: {"status":true,"value":"KMAG43980"}
+2020/06/22 18:57:50 DEBUG TICKET_1592832460797: Serial Number: KMAG43980 => KMAG43980
+2020/06/22 18:57:52 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:57:52 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"KMAG43980","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/22 18:57:53 INFO validEntities TBD
+2020/06/22 18:57:54 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:57:54 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:58:03 INFO validEntities TBD
+2020/06/22 18:58:33 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/22 18:58:33 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/22 18:58:37 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/22 18:58:37 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/22 18:58:38 INFO validEntities TBD
+2020/06/22 18:58:39 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:58:39 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:58:43 INFO validEntities TBD
+2020/06/22 18:58:46 INFO validEntities TBD
+2020/06/22 18:58:46 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:58:46 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/22 18:58:48 INFO validEntities TBD
+2020/06/22 18:58:48 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/22 18:58:48 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}

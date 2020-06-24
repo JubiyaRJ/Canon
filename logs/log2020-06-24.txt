@@ -1,0 +1,174 @@
+2020/06/24 09:16:21 INFO validEntities TBD
+2020/06/24 09:16:25 INFO validEntities TBD
+2020/06/24 09:16:26 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 09:16:26 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"Kmag96140"}
+2020/06/24 09:16:26 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"Kmag96140","channel":"whatsapp"},"json":true}
+2020/06/24 09:16:28 DEBUG Serial number util response: {"status":true,"value":"KMAG96140"}
+2020/06/24 09:16:28 DEBUG TICKET_1592970377075: Serial Number: Kmag96140 => KMAG96140
+2020/06/24 09:16:29 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 09:16:29 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"Kmag96140","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/24 09:16:31 INFO validEntities TBD
+2020/06/24 09:16:31 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 09:16:31 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 09:16:41 INFO validEntities TBD
+2020/06/24 09:16:46 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 09:16:46 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/24 09:16:50 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 09:16:50 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/24 09:16:51 INFO validEntities TBD
+2020/06/24 09:16:52 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 09:16:52 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 09:16:56 INFO validEntities TBD
+2020/06/24 09:16:59 INFO validEntities TBD
+2020/06/24 09:16:59 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 09:16:59 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 09:17:01 INFO validEntities TBD
+2020/06/24 09:17:01 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 09:17:01 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 09:17:03 INFO validEntities TBD
+2020/06/24 09:17:04 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 09:17:04 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:16:39 INFO validEntities TBD
+2020/06/24 10:16:43 INFO validEntities TBD
+2020/06/24 10:16:44 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:16:44 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"Kmag96140"}
+2020/06/24 10:16:44 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"Kmag96140","channel":"whatsapp"},"json":true}
+2020/06/24 10:16:45 DEBUG Serial number util response: {"status":true,"value":"KMAG96140"}
+2020/06/24 10:16:45 DEBUG TICKET_1592973995191: Serial Number: Kmag96140 => KMAG96140
+2020/06/24 10:16:46 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:16:46 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"Kmag96140","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/24 10:16:48 INFO validEntities TBD
+2020/06/24 10:16:49 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:16:49 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:16:58 INFO validEntities TBD
+2020/06/24 10:17:03 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:17:03 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"445306"}
+2020/06/24 10:17:06 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:17:06 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"445306","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/24 10:17:08 INFO validEntities TBD
+2020/06/24 10:17:08 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:17:08 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:17:13 INFO validEntities TBD
+2020/06/24 10:17:15 INFO validEntities TBD
+2020/06/24 10:17:16 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:17:16 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:17:18 INFO validEntities TBD
+2020/06/24 10:17:18 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:17:18 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:17:20 INFO validEntities TBD
+2020/06/24 10:17:20 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:17:20 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME","index":16,"isLast":false,"obj":{"name":"NAME","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:35:37 INFO validEntities TBD
+2020/06/24 10:35:41 INFO validEntities TBD
+2020/06/24 10:35:42 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:35:42 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"WQE83863"}
+2020/06/24 10:35:42 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"WQE83863","channel":"whatsapp"},"json":true}
+2020/06/24 10:35:43 DEBUG Serial number util response: {"status":true,"value":"WQE83863"}
+2020/06/24 10:35:43 DEBUG TICKET_1592975133364: Serial Number: WQE83863 => WQE83863
+2020/06/24 10:35:44 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:35:44 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"WQE83863","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/24 10:35:46 INFO validEntities TBD
+2020/06/24 10:35:47 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:35:47 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:35:56 INFO validEntities TBD
+2020/06/24 10:36:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:36:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"243123"}
+2020/06/24 10:36:04 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:36:04 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"243123","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/24 10:36:06 INFO validEntities TBD
+2020/06/24 10:36:07 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:36:07 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:36:11 INFO validEntities TBD
+2020/06/24 10:36:12 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:36:12 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY","value":"Parsona road, nariyawal, bareilly"}
+2020/06/24 10:36:13 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:36:13 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY","value":"Parsona road, nariyawal, bareilly","depends":[]}
+2020/06/24 10:36:15 INFO validEntities TBD
+2020/06/24 10:36:16 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:36:16 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"NAME","value":"Farooq khan"}
+2020/06/24 10:36:17 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED","value":"Farooq khan"}
+2020/06/24 10:36:17 DEBUG CATEGORY_LIB : META DATA : {"state":"NAME","value":"Farooq khan","depends":["NAME_CNF"]}
+2020/06/24 10:36:19 INFO validEntities TBD
+2020/06/24 10:36:19 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:36:19 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME_CNF","index":17,"isLast":false,"obj":{"name":"NAME_CNF","type":"SINGLE","completed":false,"depend":"NAME","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:36:23 INFO validEntities TBD
+2020/06/24 10:36:23 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:36:23 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:36:27 INFO validEntities TBD
+2020/06/24 10:36:28 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:36:28 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS_CNF","index":19,"isLast":false,"obj":{"name":"ADDRESS_CNF","type":"SINGLE","completed":false,"depend":"ADDRESS","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:39:27 INFO validEntities TBD
+2020/06/24 10:39:31 INFO validEntities TBD
+2020/06/24 10:39:32 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:39:32 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"WQE83863"}
+2020/06/24 10:39:32 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"WQE83863","channel":"whatsapp"},"json":true}
+2020/06/24 10:39:33 DEBUG Serial number util response: {"status":true,"value":"WQE83863"}
+2020/06/24 10:39:33 DEBUG TICKET_1592975363233: Serial Number: WQE83863 => WQE83863
+2020/06/24 10:39:34 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:39:34 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"WQE83863","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/24 10:39:36 INFO validEntities TBD
+2020/06/24 10:39:37 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:39:37 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:39:46 INFO validEntities TBD
+2020/06/24 10:39:51 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:39:51 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"243123"}
+2020/06/24 10:39:54 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:39:54 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"243123","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/24 10:39:55 INFO validEntities TBD
+2020/06/24 10:39:56 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:39:56 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:40:00 INFO validEntities TBD
+2020/06/24 10:40:01 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:40:01 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY","value":"Parsona road, nariyawal, bareilly"}
+2020/06/24 10:40:02 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:40:02 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY","value":"Parsona road, nariyawal, bareilly","depends":[]}
+2020/06/24 10:40:04 INFO validEntities TBD
+2020/06/24 10:40:05 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:40:05 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"NAME","value":"Farooq khan"}
+2020/06/24 10:40:06 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED","value":"Farooq khan"}
+2020/06/24 10:40:06 DEBUG CATEGORY_LIB : META DATA : {"state":"NAME","value":"Farooq khan","depends":["NAME_CNF"]}
+2020/06/24 10:40:08 INFO validEntities TBD
+2020/06/24 10:40:09 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:40:09 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME_CNF","index":17,"isLast":false,"obj":{"name":"NAME_CNF","type":"SINGLE","completed":false,"depend":"NAME","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:40:12 INFO validEntities TBD
+2020/06/24 10:40:12 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:40:12 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:40:16 INFO validEntities TBD
+2020/06/24 10:40:17 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:40:17 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS_CNF","index":19,"isLast":false,"obj":{"name":"ADDRESS_CNF","type":"SINGLE","completed":false,"depend":"ADDRESS","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:43:31 INFO validEntities TBD
+2020/06/24 10:43:35 INFO validEntities TBD
+2020/06/24 10:43:36 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:43:36 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"SERIAL_NO","value":"WQE83863"}
+2020/06/24 10:43:36 DEBUG Serial number util request: {"url":"https://core-insightengine-dev.intelli-assist.com:9093/ServiceManagement/Canon/refineSerialNumber","headers":{"content-type":"application/json"},"body":{"serialNumber":"WQE83863","channel":"whatsapp"},"json":true}
+2020/06/24 10:43:37 DEBUG Serial number util response: {"status":true,"value":"WQE83863"}
+2020/06/24 10:43:37 DEBUG TICKET_1592975607548: Serial Number: WQE83863 => WQE83863
+2020/06/24 10:43:38 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:43:38 DEBUG CATEGORY_LIB : META DATA : {"state":"SERIAL_NO","value":"WQE83863","depends":["SERIAL_NO_CNF","ENTITY_NAME","MODEL_NUMBER","WARRANTY","CONTRACT","OPEN_TICKET"]}
+2020/06/24 10:43:40 INFO validEntities TBD
+2020/06/24 10:43:41 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:43:41 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"SERIAL_NO_CNF","index":3,"isLast":false,"obj":{"name":"SERIAL_NO_CNF","type":"SINGLE","completed":false,"depend":"SERIAL_NO","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:43:50 INFO validEntities TBD
+2020/06/24 10:43:55 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:43:55 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY_PINCODE","value":"243123"}
+2020/06/24 10:43:58 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:43:58 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY_PINCODE","value":"243123","depends":["PINCODE_CNF","LOCALITY"]}
+2020/06/24 10:43:59 INFO validEntities TBD
+2020/06/24 10:44:00 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:44:00 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"PINCODE_CNF","index":14,"isLast":false,"obj":{"name":"PINCODE_CNF","type":"SINGLE","completed":false,"depend":"LOCALITY_PINCODE","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:44:04 INFO validEntities TBD
+2020/06/24 10:44:05 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:44:05 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"LOCALITY","value":"Parsona road, nariyawal, bareilly"}
+2020/06/24 10:44:07 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED"}
+2020/06/24 10:44:07 DEBUG CATEGORY_LIB : META DATA : {"state":"LOCALITY","value":"Parsona road, nariyawal, bareilly","depends":[]}
+2020/06/24 10:44:08 INFO validEntities TBD
+2020/06/24 10:44:09 DEBUG CATEGORY_LIB : State : UNKNOWN_MESSAGE_HANDLER
+2020/06/24 10:44:09 DEBUG CATEGORY_LIB : VALIDATION OBJ : {"ID":"NAME","value":"Farooq khan"}
+2020/06/24 10:44:10 DEBUG CATEGORY_LIB : VALIDATION RESULT : {"status":"ACCEPTED","value":"Farooq khan"}
+2020/06/24 10:44:10 DEBUG CATEGORY_LIB : META DATA : {"state":"NAME","value":"Farooq khan","depends":["NAME_CNF"]}
+2020/06/24 10:44:12 INFO validEntities TBD
+2020/06/24 10:44:13 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:44:13 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"NAME_CNF","index":17,"isLast":false,"obj":{"name":"NAME_CNF","type":"SINGLE","completed":false,"depend":"NAME","repeatCount":1,"sub_flow":[]}}}
+2020/06/24 10:44:16 INFO validEntities TBD
+2020/06/24 10:44:16 DEBUG CATEGORY_LIB : State : SMALLTALK_CONFIRMATION_HANDLER
+2020/06/24 10:44:16 DEBUG CATEGORY_LIB : HANDLE CONFIRMATION RESULT : {"type":"INVALID","status":false,"recentObj":{"state":"ADDRESS","index":18,"isLast":false,"obj":{"name":"ADDRESS","type":"SINGLE","completed":false,"depend":"CATEGORY","repeatCount":1,"sub_flow":[]}}}
